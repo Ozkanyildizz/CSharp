@@ -1,0 +1,8 @@
+C:\Users\ozkan\source\repos\C#\C#\bin\Debug\C#.exe.config
+C:\Users\ozkan\source\repos\C#\C#\bin\Debug\C#.exe
+C:\Users\ozkan\source\repos\C#\C#\bin\Debug\C#.pdb
+C:\Users\ozkan\source\repos\C#\C#\obj\Debug\C#.csproj.AssemblyReference.cache
+C:\Users\ozkan\source\repos\C#\C#\obj\Debug\C#.csproj.CoreCompileInputs.cache
+C:\Users\ozkan\source\repos\C#\C#\obj\Debug\C#.exe
+C:\Users\ozkan\source\repos\C#\C#\obj\Debug\C#.pdb
+C:\Users\ozkan\source\repos\C#\C#\obj\Debug\C#.exe.config
