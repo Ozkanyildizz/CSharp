@@ -42,7 +42,7 @@ namespace intro
                     continue;
                 }
 
-                sum = number1 % number2;
+                sum = number1 + number2;
                 Console.WriteLine("sum is: " + sum);
 
                 stop = ReadInt("0 for break 1 for cont: ");

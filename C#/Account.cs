@@ -26,9 +26,24 @@ namespace account
     {
         // Auto-implemented property
         public string AccountName3 { get; set; }
-        public Account3(string name="Default")
+        private decimal balance;
+        public decimal Balance
+        {
+            get { return balance; }
+            private set
+            {
+                if (value >= 0.0m)
+                {
+                    balance = value;
+                }
+            }
+        }
+        public Account3(string name = "Default", decimal InitialBalance = 0.0m)
         {
             AccountName3 = name;
+            Balance = InitialBalance;
         }
+
+
     }
 }
