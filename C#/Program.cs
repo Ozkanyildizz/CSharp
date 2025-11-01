@@ -5,7 +5,7 @@ using account;
 using intro;
 using students;
 using Format_Specifier;
-
+using WhileLoop;
 
 namespace Program
 {
@@ -54,6 +54,14 @@ namespace Program
 
             StudentGrade thirdStudent = new StudentGrade(name, grade);
             Console.WriteLine($"{thirdStudent.Name}'s grade is {thirdStudent.Grade} which is a {thirdStudent.LetterGrade}");
+
+            // WhileLoop.cs
+            whileLoop whileObj = new whileLoop();
+            whileObj.avarage();
+            whileObj.analysis();
+
+
+
         }
     }
 }
