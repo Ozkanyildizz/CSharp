@@ -1,10 +1,11 @@
-﻿using account;
-using intro;
+﻿
 using System;
+
+using account;
+using intro;
 using students;
 using Format_Specifier;
 
-// 4. pdf 18. sayfada kalındı
 
 namespace Program
 {
@@ -43,7 +44,7 @@ namespace Program
             StudentGrade firstStudent = new StudentGrade("Özkan", 95);
             Console.WriteLine($"{firstStudent.Name}'s grade is {firstStudent.Grade} which is a {firstStudent.LetterGrade}");
 
-            StudentGrade SecondStudent = new StudentGrade("Yıldız", 40);
+            StudentGrade SecondStudent = new StudentGrade("Yıldız", 50);
             Console.WriteLine($"{SecondStudent.Name}'s grade is {SecondStudent.Grade} which is a {SecondStudent.LetterGrade}");
             
             Console.Write("Enter the student's name: ");
