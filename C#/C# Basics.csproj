@@ -43,13 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="FormatSpecifier.cs" />
-    <Compile Include="Introduction.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="2-Account.cs" />
+    <Compile Include="4-FormatSpecifier.cs" />
+    <Compile Include="1-Introduction.cs" />
+    <Compile Include="0-Program.cs" />
+    <Compile Include="6-ControlFlow.cs" />
+    <Compile Include="7-TtypeConversion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentGrade.cs" />
-    <Compile Include="whileLoop.cs" />
+    <Compile Include="3-StudentGrade.cs" />
+    <Compile Include="5-whileLoop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

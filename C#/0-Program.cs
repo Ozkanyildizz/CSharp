@@ -6,6 +6,9 @@ using intro;
 using students;
 using Format_Specifier;
 using WhileLoop;
+using controlFlow;
+using typeConversionDemo;
+
 
 namespace Program
 {
@@ -13,6 +16,8 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            /*
+             
             // İntrodustion.cs 
             İntroduction introObj = new İntroduction();
             introObj.introduction();
@@ -60,8 +65,16 @@ namespace Program
             whileObj.avarage();
             whileObj.analysis();
 
+            */
 
 
+            // ControlFlow.cs
+            ControlFlow controlFlowObj = new ControlFlow();
+            controlFlowObj.forLoop();
+
+            // TypeConversion.cs
+            TypeConversion typeConversionObj = new TypeConversion();
+            typeConversionObj.typeConversion();
         }
     }
 }
