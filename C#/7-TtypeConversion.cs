@@ -8,13 +8,12 @@ namespace typeConversionDemo
         {
          
 
-            // Initial amount before interest (decimal is preferred for financial calculations)
+
             decimal principal = 1000;
 
-            // Annual interest rate (double is used because Math.Pow returns double)
             double rate = 0.05;
 
-            // Display table headers
+ 
             Console.WriteLine("Year\tAmount on deposit");
 
             // Calculate compound interest for 10 years

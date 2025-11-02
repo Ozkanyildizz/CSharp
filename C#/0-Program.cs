@@ -65,6 +65,10 @@ namespace Program
             whileObj.avarage();
             whileObj.analysis();
 
+            // TypeConversion.cs
+            TypeConversion typeConversionObj = new TypeConversion();
+            typeConversionObj.typeConversion();
+
             */
 
 
@@ -72,9 +76,7 @@ namespace Program
             ControlFlow controlFlowObj = new ControlFlow();
             controlFlowObj.forLoop();
 
-            // TypeConversion.cs
-            TypeConversion typeConversionObj = new TypeConversion();
-            typeConversionObj.typeConversion();
+            
         }
     }
 }
