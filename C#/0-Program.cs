@@ -8,7 +8,7 @@ using Format_Specifier;
 using WhileLoop;
 using controlFlow;
 using typeConversionDemo;
-
+using switchCase;
 
 namespace Program
 {
@@ -75,8 +75,11 @@ namespace Program
             // ControlFlow.cs
             ControlFlow controlFlowObj = new ControlFlow();
             controlFlowObj.forLoop();
+            controlFlowObj.doWhileLoop();
+            LetterGrades letterGradesObj = new LetterGrades();
+            letterGradesObj.lettergrade();
+           
 
-            
         }
     }
 }
