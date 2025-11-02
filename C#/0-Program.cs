@@ -9,7 +9,7 @@ using WhileLoop;
 using controlFlow;
 using typeConversionDemo;
 using switchCase;
-
+using LogicalOperators;
 namespace Program
 {
     class Program
@@ -69,16 +69,19 @@ namespace Program
             TypeConversion typeConversionObj = new TypeConversion();
             typeConversionObj.typeConversion();
 
-            */
-
-
-            // ControlFlow.cs
+             // ControlFlow.cs
             ControlFlow controlFlowObj = new ControlFlow();
             controlFlowObj.forLoop();
             controlFlowObj.doWhileLoop();
             LetterGrades letterGradesObj = new LetterGrades();
             letterGradesObj.lettergrade();
-           
+
+            */
+            // LogicalOperators.cs
+            LogicalOperatorsTable.logicalOp();
+
+
+
 
         }
     }

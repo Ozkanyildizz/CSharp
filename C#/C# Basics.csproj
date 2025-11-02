@@ -49,6 +49,7 @@
     <Compile Include="0-Program.cs" />
     <Compile Include="6-ControlFlow.cs" />
     <Compile Include="7-TtypeConversion.cs" />
+    <Compile Include="8-logicalOperators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="3-StudentGrade.cs" />
     <Compile Include="5-whileLoop.cs" />
