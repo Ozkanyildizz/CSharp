@@ -2,7 +2,7 @@
 
 
 
-namespace intro
+namespace Program
 {
     class İntroduction
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LogicalOperators
+namespace Program
 {
     class LogicalOperatorsTable
     {

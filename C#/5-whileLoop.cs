@@ -2,7 +2,7 @@
 using System.Security.Cryptography.X509Certificates;
 
 
-namespace WhileLoop
+namespace Program
 {
     internal class whileLoop
     {

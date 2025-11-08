@@ -1,6 +1,5 @@
 ﻿
-
-namespace students
+namespace Program
 {
     class StudentGrade
     {
@@ -51,6 +50,10 @@ namespace students
         {
             Name = name;
             Grade = İnitialGrade;
+        }
+
+        public StudentGrade()
+        {
         }
     }
 }

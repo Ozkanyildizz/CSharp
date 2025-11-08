@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace typeConversionDemo
+namespace Program
 {
     class TypeConversion
     {

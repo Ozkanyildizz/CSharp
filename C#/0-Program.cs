@@ -1,16 +1,4 @@
-﻿
-using System;
-
-using account;
-using intro;
-using students;
-using Format_Specifier;
-using WhileLoop;
-using controlFlow;
-using typeConversionDemo;
-using switchCase;
-using LogicalOperators;
-
+﻿using System;
 
 namespace Program
 {
@@ -19,7 +7,11 @@ namespace Program
         static void Main(string[] args)
         {
             /*
-             
+             Program program = new Program();
+             program.SampleMethod();
+
+             //SampleMethod(); // This will cause an error because SampleMethod is not static
+
             // İntrodustion.cs 
             İntroduction introObj = new İntroduction();
             introObj.introduction();
@@ -75,16 +67,30 @@ namespace Program
             ControlFlow controlFlowObj = new ControlFlow();
             controlFlowObj.forLoop();
             controlFlowObj.doWhileLoop();
-            LetterGrades letterGradesObj = new LetterGrades();
-            letterGradesObj.lettergrade();
+            StudentGrade letterGradesObj = new StudentGrade();
+            Console.WriteLine(letterGradesObj.LetterGrade);
 
-            */
             // LogicalOperators.cs
             LogicalOperatorsTable.logicalOp();
+            
+            // RandomNumbers.cs
+            RandomNumbers.frequencyOFDie();
+
+          
+          
+
+            */
 
 
+            // Craps.cs
+            CrapsGame.Play();
 
 
+        }
+        void SampleMethod()
+        {
+            
+            Console.WriteLine("Sample Method Executed");
         }
     }
 }

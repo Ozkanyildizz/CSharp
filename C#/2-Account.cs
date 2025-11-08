@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace account
+namespace Program
 {
     class Account
     {
