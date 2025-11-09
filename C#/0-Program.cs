@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace Program
 {
@@ -89,12 +90,14 @@ namespace Program
             t.SetTime(hour: 12, second: 22); // minute belirtilmedi → default 0 // Çıktı: Time: 12:00:22 
             t.SetTime(second: 22, hour: 12); // sıra önemli değil Çıktı: Time: 12:00:22
           
-
-            */
-
             // ExpressionBodiedMethod.cs
             Console.WriteLine(ExpressionBodiedMethod.Cube(3));
-            Console.WriteLine(ExpressionBodiedMethod.IsNaFaultState);
+            Console.WriteLine(ExpressionBodiedMethod.IsNaFaultState); 
+
+            */
+            // RecursiveFactorial.cs
+            RecursiveFactorialTest.Factorial();
+
 
 
 

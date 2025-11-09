@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="11- MethodOverloading.cs" />
     <Compile Include="12-ExpressionBodiedMethod.cs" />
+    <Compile Include="13-RecursiveFactorial.cs" />
     <Compile Include="2-Account.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
