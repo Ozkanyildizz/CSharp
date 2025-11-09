@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="11- MethodOverloading.cs" />
     <Compile Include="2-Account.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
@@ -51,7 +52,7 @@
     <Compile Include="7-TtypeConversion.cs" />
     <Compile Include="8-logicalOperators.cs" />
     <Compile Include="9-RandomNumbers.cs" />
-    <Compile Include="Craps.cs" />
+    <Compile Include="10-Craps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="3-StudentGrade.cs" />
     <Compile Include="5-whileLoop.cs" />
