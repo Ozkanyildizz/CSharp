@@ -78,10 +78,8 @@ namespace Program
 
           // Craps.cs
             CrapsGame.Play();
-          
 
-            */
-            // SquareTest.cs
+             // SquareTest.cs
             Console.WriteLine(SquareTest.OptionalTest());
             Console.WriteLine(SquareTest.Test(5));
             Console.WriteLine(SquareTest.Test(5.5));
@@ -90,7 +88,14 @@ namespace Program
             t.SetTime(2, 0, 22); // Çıktı: Time: 12:00:22
             t.SetTime(hour: 12, second: 22); // minute belirtilmedi → default 0 // Çıktı: Time: 12:00:22 
             t.SetTime(second: 22, hour: 12); // sıra önemli değil Çıktı: Time: 12:00:22
-                                            
+          
+
+            */
+
+            // ExpressionBodiedMethod.cs
+            Console.WriteLine(ExpressionBodiedMethod.Cube(3));
+            Console.WriteLine(ExpressionBodiedMethod.IsNaFaultState);
+
 
 
 
