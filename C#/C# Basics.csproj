@@ -50,6 +50,7 @@
     <Compile Include="15-Arrays.cs" />
     <Compile Include="16-ErrorsHandling.cs" />
     <Compile Include="17-Card.cs" />
+    <Compile Include="18-DeckOfCards.cs" />
     <Compile Include="2-Account.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />

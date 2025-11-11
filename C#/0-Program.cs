@@ -109,22 +109,43 @@ namespace Program
             ErrorsHandling obj = new ErrorsHandling();
             obj.studentPull();
 
-
-            */
-
-
             // Card.cs
             var c = new Card("Ace", "Spades");
             Console.WriteLine(c.ToString());
+            */
 
 
 
 
-        }
-        void SampleMethod()
-        {
-            
-            Console.WriteLine("Sample Method Executed");
+            // DeckOfCards.cs
+            var myDeck = new DeckOfCards();
+
+            myDeck.Shuffle();
+
+            // 52 kartı sırayla yazdır; her 4 kartta bir yeni satıra geç
+            for (int i = 0; i < 52; i++)
+            {
+                Card c = myDeck.DealCard();
+                if (c != null)
+                {
+                    Console.Write($"{c,-20}"); // -20 ile sütun hizalaması
+                }
+                else
+                {
+                    Console.Write($"{"null",-20}");
+                }
+
+                if ((i + 1) % 4 == 0)
+                    Console.WriteLine();
+
+            }
+
+            /*
+            void SampleMethod()
+            {
+
+                Console.WriteLine("Sample Method Executed");
+            }*/
         }
     }
 }

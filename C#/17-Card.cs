@@ -1,10 +1,9 @@
-﻿using System;
-
+﻿
 
 namespace Program
 {
 
-    class Card
+    public class Card
     {
        
         private string Face { get; }
