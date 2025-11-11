@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="14-Reference.cs" />
+    <Compile Include="14-ParameterTypes.cs" />
     <Compile Include="11- MethodOverloading.cs" />
     <Compile Include="12-ExpressionBodiedMethod.cs" />
     <Compile Include="13-RecursiveFactorial.cs" />
+    <Compile Include="15-Arrays.cs" />
+    <Compile Include="16-ErrorsHandling.cs" />
+    <Compile Include="17-Card.cs" />
     <Compile Include="2-Account.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
