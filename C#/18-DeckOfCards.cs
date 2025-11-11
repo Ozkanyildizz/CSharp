@@ -13,7 +13,7 @@ namespace Program
         {
             string[] faces = { "Ace", "Deuce", "Three", "Four", "Five", "Six",
                            "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
-
+            
             string[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
 
 
@@ -50,3 +50,4 @@ namespace Program
 }
 
 
+ 
