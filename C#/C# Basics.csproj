@@ -55,6 +55,7 @@
     <Compile Include="2-Account.cs" />
     <Compile Include="20-GradeBook.cs" />
     <Compile Include="20-MultiDimensionalArrays.cs" />
+    <Compile Include="21-ArrayExercises.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />

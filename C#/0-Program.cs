@@ -146,12 +146,14 @@ namespace Program
              //GradeBook.cs
             GradeBook gradeBookobj = new GradeBook();
             gradeBookobj.gradeBook();
-            */
 
             // MultiDimensionalArrays.cs
             MultiDimensionalArrays multiDimensionalArraysObj = new MultiDimensionalArrays();
             multiDimensionalArraysObj.multiDimensionalArrays();
+            */
 
+            //MultiDimensionalArraysExercises.cs
+            GradeBookExercise.Test();
 
             /*
             void SampleMethod()
