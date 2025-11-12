@@ -150,10 +150,14 @@ namespace Program
             // MultiDimensionalArrays.cs
             MultiDimensionalArrays multiDimensionalArraysObj = new MultiDimensionalArrays();
             multiDimensionalArraysObj.multiDimensionalArrays();
-            */
 
             //MultiDimensionalArraysExercises.cs
             GradeBookExercise.Test();
+
+            */
+
+            //Param.cs
+            ParamArrayTest.Test();
 
             /*
             void SampleMethod()
