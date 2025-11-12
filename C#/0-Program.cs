@@ -142,12 +142,16 @@ namespace Program
 
              // passArray.cs
             PassArray.pass();
-            */
-            //GradeBook.cs
+
+             //GradeBook.cs
             GradeBook gradeBookobj = new GradeBook();
             gradeBookobj.gradeBook();
+            */
 
-            
+            // MultiDimensionalArrays.cs
+            MultiDimensionalArrays multiDimensionalArraysObj = new MultiDimensionalArrays();
+            multiDimensionalArraysObj.multiDimensionalArrays();
+
 
             /*
             void SampleMethod()
