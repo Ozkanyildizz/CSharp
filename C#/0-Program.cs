@@ -154,10 +154,14 @@ namespace Program
             //MultiDimensionalArraysExercises.cs
             GradeBookExercise.Test();
 
-            */
-
             //Param.cs
             ParamArrayTest.Test();
+            */
+
+
+
+            // InitArray.cs
+            InitArray.Test(args);
 
             /*
             void SampleMethod()
