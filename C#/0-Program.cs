@@ -139,10 +139,16 @@ namespace Program
                     Console.WriteLine();
 
             }
-            */
 
-
+             // passArray.cs
             PassArray.pass();
+            */
+            //GradeBook.cs
+            GradeBook gradeBookobj = new GradeBook();
+            gradeBookobj.gradeBook();
+
+            
+
             /*
             void SampleMethod()
             {

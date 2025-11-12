@@ -53,6 +53,7 @@
     <Compile Include="18-DeckOfCards.cs" />
     <Compile Include="19-PassArrays.cs" />
     <Compile Include="2-Account.cs" />
+    <Compile Include="20-GradeBook.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />
