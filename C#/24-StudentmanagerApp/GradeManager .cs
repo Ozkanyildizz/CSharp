@@ -135,6 +135,7 @@ namespace StudentmanagerApp
         {
             string letterGrade; 
 
+
             switch ((int)average / 10)
             {
                 case 10: // 100
