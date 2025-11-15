@@ -58,6 +58,8 @@
     <Compile Include="22-ArrayExercises.cs" />
     <Compile Include="23-Params.cs" />
     <Compile Include="24-InitArray.cs" />
+    <Compile Include="24-StudentmanagerApp\GradeManager .cs" />
+    <Compile Include="24-StudentmanagerApp\Student.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />

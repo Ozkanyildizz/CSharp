@@ -1,4 +1,5 @@
 ﻿
+using StudentmanagerApp;
 using System;
 
 namespace Program
@@ -157,11 +158,14 @@ namespace Program
             //Param.cs
             ParamArrayTest.Test();
             */
+                       
+            // StudentManagerApp
+            GradeManager student = new GradeManager(3,3);
+            student.InputGrades();
+            student.DisplayReport();
+            
 
 
-
-            // InitArray.cs
-            InitArray.Test(args);
 
             /*
             void SampleMethod()
@@ -169,6 +173,8 @@ namespace Program
 
                 Console.WriteLine("Sample Method Executed");
             }*/
+
+
         }
     }
 }
