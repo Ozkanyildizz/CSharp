@@ -78,6 +78,7 @@ namespace Program
             }
 
             Console.WriteLine();
+
             Console.WriteLine(lastNames.GetType().Name);
         }
     }
