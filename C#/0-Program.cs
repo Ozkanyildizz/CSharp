@@ -1,4 +1,5 @@
 ﻿
+using C_;
 using StudentmanagerApp;
 using System;
 
@@ -157,23 +158,20 @@ namespace Program
 
             //Param.cs
             ParamArrayTest.Test();
-            */
+            
                        
             // StudentManagerApp
             GradeManager student = new GradeManager(3,3);
             student.InputGrades();
             student.DisplayReport();
             
+            */
 
+            // LING with simple arrays
+            _25_LINQWithSimpleTypeArray obj = new _25_LINQWithSimpleTypeArray();
+            obj.LINQWithSimpleTypeArray();
 
-
-            /*
-            void SampleMethod()
-            {
-
-                Console.WriteLine("Sample Method Executed");
-            }*/
-
+          
 
         }
     }

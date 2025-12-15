@@ -60,6 +60,7 @@
     <Compile Include="24-InitArray.cs" />
     <Compile Include="24-StudentmanagerApp\GradeManager .cs" />
     <Compile Include="24-StudentmanagerApp\Student.cs" />
+    <Compile Include="25-LINQWithSimpleTypeArray.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />

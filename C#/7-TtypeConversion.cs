@@ -54,6 +54,14 @@ namespace Program
             int parsedInt = Convert.ToInt32(strNumber); // string → int
             Console.WriteLine("Convert string to int: " + parsedInt);
 
+            //int to string conversion
+            int number = 789;
+            string strFromInt = Convert.ToString(number); // int → string
+            string metinSayi = number.ToString();
+            string hataKodu = Convert.ToString(number); // "404"
+            Console.WriteLine("Convert int to string: " + strFromInt);
+
+
             // -------------------------------
             // Parse method (direct string-to-int conversion)
             // -------------------------------
