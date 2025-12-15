@@ -1,5 +1,4 @@
-﻿
-using C_;
+﻿using C_;
 using StudentmanagerApp;
 using System;
 
@@ -165,13 +164,16 @@ namespace Program
             student.InputGrades();
             student.DisplayReport();
             
-            */
-
             // LING with simple arrays
             _25_LINQWithSimpleTypeArray obj = new _25_LINQWithSimpleTypeArray();
             obj.LINQWithSimpleTypeArray();
 
-          
+            */
+
+            // 26-LINQ Exercise WithArray 
+            LINQtoArrayOfObjects obj = new LINQtoArrayOfObjects();
+            obj.Exercise();
+
 
         }
     }
