@@ -62,6 +62,12 @@
     <Compile Include="24-StudentmanagerApp\Student.cs" />
     <Compile Include="25-LINQWithSimpleTypeArray.cs" />
     <Compile Include="26-LINQExerciseWithArray.cs" />
+    <Compile Include="27-ListCollections.cs" />
+    <Compile Include="28-LINQWithListCollection.cs" />
+    <Compile Include="29-Time.cs" />
+    <Compile Include="30-DateTime.cs" />
+    <Compile Include="31-ThisTest.cs" />
+    <Compile Include="32-Time2.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />

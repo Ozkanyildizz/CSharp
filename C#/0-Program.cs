@@ -168,12 +168,40 @@ namespace Program
             _25_LINQWithSimpleTypeArray obj = new _25_LINQWithSimpleTypeArray();
             obj.LINQWithSimpleTypeArray();
 
-            */
+            
 
             // 26-LINQ Exercise WithArray 
             LINQtoArrayOfObjects obj = new LINQtoArrayOfObjects();
             obj.Exercise();
 
+            
+
+            // 27-ListCollections.cs
+            _27_ListCollections listCollectionsObj = new _27_ListCollections();
+            listCollectionsObj.Collection();
+
+            
+            // 28-LINQWithListCollection.cs
+            _28_LINQWithListCollection lINQWithListCollectionObj = new _28_LINQWithListCollection();
+            lINQWithListCollectionObj.LINQListCollection();
+            
+            // 29-Time.cs
+            Time1Test time = new Time1Test();
+            time.test();
+
+            
+            // 30-DateTime.cs
+            DateTimeTest dateTimeTestObj = new DateTimeTest();
+            dateTimeTestObj.time();
+
+           
+            // 31-ThisTest.cs
+            ThisTest thisTestObj = new ThisTest();
+            thisTestObj.test();
+             */
+            //32-Time2.cs
+            Time2Test time2TestObj = new Time2Test();
+            time2TestObj.test();
 
         }
     }
