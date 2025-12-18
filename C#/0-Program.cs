@@ -204,13 +204,35 @@ namespace Program
             Time2Test time2TestObj = new Time2Test();
             time2TestObj.test();
 
-            */
+            
 
             // 33-Composition.cs
             EmployeeTest obj = new EmployeeTest();
             obj.test();
 
+           
+            // 35-Operator Overloading.cs
+            ComplexNumber c1 = new ComplexNumber(2.0, 3.0);
+            ComplexNumber c2 = new ComplexNumber(4.0, 5.0);
+            ComplexNumber sum = c1 + c2;
+            ComplexNumber difference = c1 - c2;
+            ComplexNumber product = c1 * c2;
+            Console.WriteLine($"c1: {c1}");
+            Console.WriteLine($"c2: {c2}");
+            Console.WriteLine($"Sum: {sum}");
+            Console.WriteLine($"Difference: {difference}");
+            Console.WriteLine($"Product: {product}");
+
             
+
+            // 36-Struct.cs
+            StrustTest structTestObj = new StrustTest();
+            structTestObj.test();
+            
+             */
+            // 37-Extension Methods.cs
+            TimeExtensionsTest timeExtensionsTestObj = new TimeExtensionsTest();
+            timeExtensionsTestObj.test();
         }
     }
 }

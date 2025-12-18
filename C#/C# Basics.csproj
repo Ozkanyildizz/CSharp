@@ -68,6 +68,11 @@
     <Compile Include="30-DateTime.cs" />
     <Compile Include="31-ThisTest.cs" />
     <Compile Include="32-Time2.cs" />
+    <Compile Include="33-Composition.cs" />
+    <Compile Include="34-Readonly.cs" />
+    <Compile Include="35-Operator Overloading.cs" />
+    <Compile Include="36-Struct.cs" />
+    <Compile Include="37-Extension Methods.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />
