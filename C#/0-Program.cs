@@ -1,6 +1,7 @@
 ﻿using C_;
 using StudentmanagerApp;
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Program
 {
@@ -198,11 +199,18 @@ namespace Program
             // 31-ThisTest.cs
             ThisTest thisTestObj = new ThisTest();
             thisTestObj.test();
-             */
+             
             //32-Time2.cs
             Time2Test time2TestObj = new Time2Test();
             time2TestObj.test();
 
+            */
+
+            // 33-Composition.cs
+            EmployeeTest obj = new EmployeeTest();
+            obj.test();
+
+            
         }
     }
 }
