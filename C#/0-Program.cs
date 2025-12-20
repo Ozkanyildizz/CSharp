@@ -9,10 +9,10 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            /*
-             
+            
+             /*
             Program program = new Program();
-            program.SampleMethod();
+            //program.SampleMethod();
 
             //SampleMethod(); // This will cause an error because SampleMethod is not static
 
@@ -229,10 +229,18 @@ namespace Program
             StrustTest structTestObj = new StrustTest();
             structTestObj.test();
             
-             */
+            
             // 37-Extension Methods.cs
             TimeExtensionsTest timeExtensionsTestObj = new TimeExtensionsTest();
             timeExtensionsTestObj.test();
+
+            */
+
+            // 38-Inheritance.cs
+            CommissionEmployeeTest commissionEmployeeTestObj = new CommissionEmployeeTest();
+            commissionEmployeeTestObj.test();
+            BasePlusCommissionEmployeeTest basePlusCommissionEmployeeTestObj = new BasePlusCommissionEmployeeTest();
+            basePlusCommissionEmployeeTestObj.test();
         }
     }
 }
