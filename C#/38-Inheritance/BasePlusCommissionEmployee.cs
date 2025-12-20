@@ -49,14 +49,9 @@ namespace C_
     {
         public void test()
         {
-            CommissionEmployee employee =
-               new BasePlusCommissionEmployee(
-                   "Bob", "Lewis", "333-33-3333", 5000.00M, .04M, 300.00M);
-            Console.WriteLine("Employee information obtained by ToString:\n");
-                        
+            CommissionEmployee employee = new BasePlusCommissionEmployee("Bob", "Lewis", "333-33-3333", 5000.00M, .04M, 300.00M);
+            Console.WriteLine("Employee information obtained by ToString:\n");                  
             Console.WriteLine(employee.ToString());
-           
-            
         }
     }
 }
