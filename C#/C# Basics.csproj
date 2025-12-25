@@ -73,6 +73,14 @@
     <Compile Include="35-Operator Overloading.cs" />
     <Compile Include="36-Struct.cs" />
     <Compile Include="37-Extension Methods.cs" />
+    <Compile Include="38-Inheritance\BasePlusCommissionEmployee.cs" />
+    <Compile Include="38-Inheritance\CommissionEmployee.cs" />
+    <Compile Include="39-Polymorphizm\Hourly-Employee.cs" />
+    <Compile Include="39-Polymorphizm\BasePlus-Commision-Employee.cs" />
+    <Compile Include="39-Polymorphizm\Commision-Employee.cs" />
+    <Compile Include="39-Polymorphizm\Employee.cs" />
+    <Compile Include="39-Polymorphizm\PayrolSystemTest.cs" />
+    <Compile Include="39-Polymorphizm\Salaried-Employee.cs" />
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />
@@ -89,5 +97,6 @@
     <None Include="App.config" />
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
