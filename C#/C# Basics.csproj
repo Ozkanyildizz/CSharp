@@ -94,7 +94,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="3-StudentGrade.cs" />
     <Compile Include="5-whileLoop.cs" />
-    <None Include="README2.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

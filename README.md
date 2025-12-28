@@ -72,4 +72,4 @@ Bu projeyi yerel bilgisayarınızda çalıştırmak için:
 
 1. **Repoyu klonlayın:**
    ```bash
-   git clone [https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ.git)
+   git clone [https://github.com/Ozkanyildizz/CSharp.git](https://github.com/Ozkanyildizz/CSharp.git)
