@@ -39,7 +39,7 @@ public class CustomEnumerator : IEnumerator<int>
     {
         _position++;
         return (_position < _items.Length);
-    }
+    } 
 
     public void Reset()
     {
