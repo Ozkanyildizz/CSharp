@@ -84,6 +84,9 @@
     <Compile Include="4-FormatSpecifier.cs" />
     <Compile Include="1-Introduction.cs" />
     <Compile Include="0-Program.cs" />
+    <Compile Include="40-Interface.cs" />
+    <Compile Include="41-IEnumerator.cs" />
+    <Compile Include="42-IComparable.cs" />
     <Compile Include="6-ControlFlow.cs" />
     <Compile Include="7-TtypeConversion.cs" />
     <Compile Include="8-logicalOperators.cs" />

@@ -242,13 +242,16 @@ namespace Program
            BasePlusCommissionEmployeeTest basePlusCommissionEmployeeTestObj = new BasePlusCommissionEmployeeTest();
            basePlusCommissionEmployeeTestObj.test();
 
-             */
+             
 
             // 39-Polymorphizm.cs
             PayrolSystemTest polymorphizmTestObj = new PayrolSystemTest();
             polymorphizmTestObj.Test();
 
-
+            */
+            // 40-Interface.cs
+            PayableInterfaceTest payableInterfaceTestObj = new PayableInterfaceTest();
+            payableInterfaceTestObj.test();
 
 
 
