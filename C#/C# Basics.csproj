@@ -86,7 +86,6 @@
     <Compile Include="0-Program.cs" />
     <Compile Include="40-Interface.cs" />
     <Compile Include="41-IEnumerator.cs" />
-    <Compile Include="42-IComparable.cs" />
     <Compile Include="6-ControlFlow.cs" />
     <Compile Include="7-TtypeConversion.cs" />
     <Compile Include="8-logicalOperators.cs" />
@@ -100,6 +99,8 @@
     <None Include="App.config" />
     <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="42-Exception\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
