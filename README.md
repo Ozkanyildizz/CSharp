@@ -41,8 +41,21 @@ Veri setleri ile çalışma ve manipülasyon.
 Sınıflar, kalıtım, çok biçimlilik ve arayüzler.
 - **Class & Object:** `2-Account.cs`, `3-StudentGrade.cs`, `17-Card.cs`, `29-Time.cs`
 - **Encapsulation & Properties:** `30-DateTime.cs`, `34-Readonly.cs`
-- **Inheritance (Kalıtım):** `📂 38-Inheritance`
-- **Polymorphism (Çok Biçimlilik):** `📂 39-Polymorphizm`
+
+- **📂 38-Inheritance (Kalıtım)**
+  Sınıflar arası hiyerarşi kurma ve kod tekrarını önleme.
+  - `CommissionEmployee.cs`: Komisyon bazlı çalışan sınıfı.
+  - `BasePlusCommissionEmployee.cs`: Kalıtım yoluyla oluşturulmuş, taban maaş + komisyon alan çalışan sınıfı.
+
+- **📂 39-Polymorphizm (Çok Biçimlilik)**
+  Soyut sınıflar (Abstract Class) kullanarak oluşturulmuş kapsamlı bir Bordro/Maaş Sistemi örneği.
+  - `Employee.cs`: Tüm çalışanlar için ortak özellikleri tutan soyut temel sınıf.
+  - `Salaried-Employee.cs`: Sabit haftalık maaş alan çalışan.
+  - `Hourly-Employee.cs`: Saatlik ücret ve fazla mesai mantığıyla çalışan.
+  - `Commision-Employee.cs`: Satış yüzdesine göre kazanan çalışan.
+  - `BasePlus-Commision-Employee.cs`: Taban maaş üzerine komisyon alan çalışan.
+  - `PayrolSystemTest.cs`: Tüm bu sınıfları bir liste içinde polimorfik olarak çalıştıran test kodu.
+
 - **Interfaces (Arayüzler):** `40-Interface.cs`
 - **Composition:** `33-Composition.cs`
 - **Structs:** `36-Struct.cs`
@@ -59,7 +72,9 @@ Veri sorgulama teknikleri.
 - `16-ErrorsHandling.cs`
 
 ### 🎮 Mini Projeler ve Uygulamalar
-- `📂 24-StudentmanagerApp` - Öğrenci yönetim sistemi
+- **📂 24-StudentmanagerApp** - Öğrenci Yönetim Sistemi
+  - `Student.cs`: Öğrenci bilgilerini tutan temel varlık (Entity) sınıfı.
+  - `GradeManager.cs`: Not hesaplama ve öğrenci işlemlerini yöneten iş mantığı sınıfı.
 - `10-Craps.cs` - Craps zar oyunu simülasyonu
 - `18-DeckOfCards.cs` - Kart destesi uygulaması
 - `20-GradeBook.cs` - Not defteri uygulaması
@@ -72,4 +87,4 @@ Bu projeyi yerel bilgisayarınızda çalıştırmak için:
 
 1. **Repoyu klonlayın:**
    ```bash
-   git clone [https://github.com/Ozkanyildizz/CSharp.git](https://github.com/Ozkanyildizz/CSharp.git)
+   git clone https://github.com/Ozkanyildizz/CSharp.git
