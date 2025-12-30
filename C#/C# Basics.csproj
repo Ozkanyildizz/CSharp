@@ -86,6 +86,11 @@
     <Compile Include="0-Program.cs" />
     <Compile Include="40-Interface.cs" />
     <Compile Include="41-IEnumerator.cs" />
+    <Compile Include="42-Exception\DividedByZeroExceptionHandling.cs" />
+    <Compile Include="42-Exception\ExceptionFilters.cs" />
+    <Compile Include="42-Exception\SomeOperators.cs" />
+    <Compile Include="42-Exception\UserDefinedException.cs" />
+    <Compile Include="42-Exception\UsingStatment.cs" />
     <Compile Include="6-ControlFlow.cs" />
     <Compile Include="7-TtypeConversion.cs" />
     <Compile Include="8-logicalOperators.cs" />
@@ -97,10 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="42-Exception\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

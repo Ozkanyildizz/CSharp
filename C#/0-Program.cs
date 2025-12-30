@@ -248,14 +248,26 @@ namespace Program
             PayrolSystemTest polymorphizmTestObj = new PayrolSystemTest();
             polymorphizmTestObj.Test();
 
-            */
+            
             // 40-Interface.cs
             PayableInterfaceTest payableInterfaceTestObj = new PayableInterfaceTest();
             payableInterfaceTestObj.test();
 
+            
+            //Exception Handling
+            DividedByZeroExceptionHandling obj = new DividedByZeroExceptionHandling();
+            obj.test2();
+            obj.InnerExceptionExample();
+            obj.HelpLinkTargetSiteExample();
+            SquareRootTest.test();
 
+              
+            //some Operators
+            SomeOperators.NullableTypeOperator();
 
-
+            */
+            // Exception Filters
+            ExceptionFilters.TestExceptionFilters();
         }
     }
 }
