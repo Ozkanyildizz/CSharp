@@ -24,6 +24,7 @@ namespace C_
                 Console.WriteLine("Division by zero is not allowed. Please try again.");
                 Console.WriteLine($"Exception Message: {ex.Message}");
             }
+            catch when (DateTime.Now.DayOfWeek == DayOfWeek.Sunday) { Console.WriteLine("Hata sadece Pazar günü yakalanıyor!"); }
         }
     }
 }
